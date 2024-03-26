@@ -14,6 +14,9 @@
 		1E5EB2692BB30DBD0041E3C6 /* GraffitiGuideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EB2682BB30DBD0041E3C6 /* GraffitiGuideTests.swift */; };
 		1E5EB2732BB30DBD0041E3C6 /* GraffitiGuideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EB2722BB30DBD0041E3C6 /* GraffitiGuideUITests.swift */; };
 		1E5EB2752BB30DBD0041E3C6 /* GraffitiGuideUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EB2742BB30DBD0041E3C6 /* GraffitiGuideUITestsLaunchTests.swift */; };
+		1E5EB2842BB3189F0041E3C6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EB2832BB3189F0041E3C6 /* HomeView.swift */; };
+		1E5EB2862BB31CC50041E3C6 /* AboutUsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EB2852BB31CC50041E3C6 /* AboutUsView.swift */; };
+		1E5EB2882BB31E210041E3C6 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EB2872BB31E210041E3C6 /* CameraView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,10 @@
 		1E5EB26E2BB30DBD0041E3C6 /* GraffitiGuideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraffitiGuideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E5EB2722BB30DBD0041E3C6 /* GraffitiGuideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraffitiGuideUITests.swift; sourceTree = "<group>"; };
 		1E5EB2742BB30DBD0041E3C6 /* GraffitiGuideUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraffitiGuideUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1E5EB2832BB3189F0041E3C6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1E5EB2852BB31CC50041E3C6 /* AboutUsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsView.swift; sourceTree = "<group>"; };
+		1E5EB2872BB31E210041E3C6 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		1E5EB2892BB33B020041E3C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +101,12 @@
 		1E5EB2562BB30DBA0041E3C6 /* GraffitiGuide */ = {
 			isa = PBXGroup;
 			children = (
+				1E5EB2892BB33B020041E3C6 /* Info.plist */,
 				1E5EB2572BB30DBA0041E3C6 /* GraffitiGuideApp.swift */,
 				1E5EB2592BB30DBA0041E3C6 /* ContentView.swift */,
+				1E5EB2832BB3189F0041E3C6 /* HomeView.swift */,
+				1E5EB2872BB31E210041E3C6 /* CameraView.swift */,
+				1E5EB2852BB31CC50041E3C6 /* AboutUsView.swift */,
 				1E5EB25B2BB30DBC0041E3C6 /* Assets.xcassets */,
 				1E5EB25D2BB30DBC0041E3C6 /* Preview Content */,
 			);
@@ -192,6 +203,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
+				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					1E5EB2532BB30DBA0041E3C6 = {
 						CreatedOnToolsVersion = 15.3;
@@ -206,7 +218,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1E5EB24F2BB30DBA0041E3C6 /* Build configuration list for PBXProject "GraffitiGuide" */;
+			buildConfigurationList = 1E5EB24F2BB30DBA0041E3C6 /* Build configuration list for PBXProject "Graffiti Guide" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -258,6 +270,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E5EB25A2BB30DBA0041E3C6 /* ContentView.swift in Sources */,
+				1E5EB2862BB31CC50041E3C6 /* AboutUsView.swift in Sources */,
+				1E5EB2842BB3189F0041E3C6 /* HomeView.swift in Sources */,
+				1E5EB2882BB31E210041E3C6 /* CameraView.swift in Sources */,
 				1E5EB2582BB30DBA0041E3C6 /* GraffitiGuideApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,8 +437,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GraffitiGuide/Preview Content\"";
+				DEVELOPMENT_TEAM = 7T8RRR9DBX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GraffitiGuide/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -450,8 +467,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GraffitiGuide/Preview Content\"";
+				DEVELOPMENT_TEAM = 7T8RRR9DBX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GraffitiGuide/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -545,7 +564,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1E5EB24F2BB30DBA0041E3C6 /* Build configuration list for PBXProject "GraffitiGuide" */ = {
+		1E5EB24F2BB30DBA0041E3C6 /* Build configuration list for PBXProject "Graffiti Guide" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1E5EB2762BB30DBD0041E3C6 /* Debug */,
