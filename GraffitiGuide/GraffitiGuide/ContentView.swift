@@ -20,8 +20,8 @@ struct ContentView: View {
                 VStack {
                     
                     Text("Graffiti Guide")
-                        .font(.largeTitle)
-                        .padding(.top, 40.0)
+                        .font(.custom( "aAnotherTag", size: 72))
+                        .padding(.top, 70.0)
                         .foregroundColor(.white)
                     
                     

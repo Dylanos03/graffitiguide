@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E0EAAC62BB42A0E00A5A669 /* aAnotherTag.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E0EAAC52BB428F400A5A669 /* aAnotherTag.ttf */; };
+		1E0EAAC72BB42A0F00A5A669 /* aAnotherTag.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E0EAAC52BB428F400A5A669 /* aAnotherTag.ttf */; };
+		1E0EAAC82BB42A1000A5A669 /* aAnotherTag.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E0EAAC52BB428F400A5A669 /* aAnotherTag.ttf */; };
 		1E5EB2582BB30DBA0041E3C6 /* GraffitiGuideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EB2572BB30DBA0041E3C6 /* GraffitiGuideApp.swift */; };
 		1E5EB25A2BB30DBA0041E3C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EB2592BB30DBA0041E3C6 /* ContentView.swift */; };
 		1E5EB25C2BB30DBC0041E3C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E5EB25B2BB30DBC0041E3C6 /* Assets.xcassets */; };
@@ -37,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E0EAAC52BB428F400A5A669 /* aAnotherTag.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = aAnotherTag.ttf; path = GraffitiGuide/aAnotherTag.ttf; sourceTree = SOURCE_ROOT; };
 		1E5EB2542BB30DBA0041E3C6 /* GraffitiGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraffitiGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E5EB2572BB30DBA0041E3C6 /* GraffitiGuideApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraffitiGuideApp.swift; sourceTree = "<group>"; };
 		1E5EB2592BB30DBA0041E3C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -108,6 +112,7 @@
 				1E5EB2872BB31E210041E3C6 /* CameraView.swift */,
 				1E5EB2852BB31CC50041E3C6 /* AboutUsView.swift */,
 				1E5EB25B2BB30DBC0041E3C6 /* Assets.xcassets */,
+				1E0EAAC52BB428F400A5A669 /* aAnotherTag.ttf */,
 				1E5EB25D2BB30DBC0041E3C6 /* Preview Content */,
 			);
 			path = GraffitiGuide;
@@ -244,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E5EB25F2BB30DBC0041E3C6 /* Preview Assets.xcassets in Resources */,
+				1E0EAAC62BB42A0E00A5A669 /* aAnotherTag.ttf in Resources */,
 				1E5EB25C2BB30DBC0041E3C6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E0EAAC72BB42A0F00A5A669 /* aAnotherTag.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +266,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E0EAAC82BB42A1000A5A669 /* aAnotherTag.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
