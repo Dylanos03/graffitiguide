@@ -10,14 +10,14 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         
-        NavigationView{
-            ZStack{
-                Image("StartPage")
+        NavigationView{ 
+            ZStack{ 
+                Image("StartPage") // Background image
                     .resizable()
                     .aspectRatio(contentMode: .fill)
                     .edgesIgnoringSafeArea(.all)
                 
-                VStack {
+                VStack { // Placing text ontop of image background
                     
                     Text("Graffiti Guide")
                         .font(.custom( "aAnotherTag", size: 72))

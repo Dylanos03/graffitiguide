@@ -9,7 +9,7 @@ import SwiftUI
 
 var aboutText: String {
     "This app has been made to educate people on the street art that covers Bristol, from the random tags to Banksy to commissioned murals. \n \n The line between Art and Vandalism can be subjective, some saying that all of it is art in its own way, but the law stating that it is a form of vandalism (unless created with permission)."
-}
+} // Text to be displayed on the About Us page
 
 struct AboutUsView: View {
     var body: some View {
@@ -27,7 +27,7 @@ struct AboutUsView: View {
                         .padding(.top, 40.0)
                         .foregroundColor(.white)
                     
-                    Text(aboutText)
+                    Text(aboutText) // Displaying the aboutText string
                         .font(.body)
                         .foregroundColor(Color.white)
                         .padding(.top, 5)
